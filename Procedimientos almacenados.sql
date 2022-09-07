@@ -79,7 +79,7 @@ end
 
 select * from Municipios
 
-NMun 'Leon',4
+NMun 'veracruz',4
 
 -- Buscar Depto
 create procedure BuscarD
@@ -128,8 +128,19 @@ begin
   print 'Dpto no encontrado'
 end
 
-MDpto 4,'Matagalpa'
+
+
+MDpto 2,'Masaya'
+
+listarD
 
 select * from Deptos
 
 backup database SFCIB to disk='D:\SFCIB.bak'
+
+
+
+
+
+
+
